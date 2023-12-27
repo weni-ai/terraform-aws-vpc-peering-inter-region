@@ -24,7 +24,7 @@ variable "requester_region" {
 
 variable "requester_subnet" {
   description = "Name of the requester subnet tag to be peered"
-  default = "transit"
+  default     = "transit"
 }
 variable "serial" {
   default     = 0
